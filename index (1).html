@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Manager</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h2>Destination Manager</h2>
+    <div class="form-row">
+      <input type="text" id="productName" placeholder="Product Name" />
+      <input type="text" id="productPrice" placeholder="Product Information" />
+      <input type="text" id="productImg" placeholder="Product Image" />
+      <textarea id="productInfo" placeholder="Enter product information"></textarea>
+      
+      <input type="hidden" id="editId" />
+      <button id="addProduct">Add Product</button>
+      <button id="cancelEdit">Cancel</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Info</th>
+          <th>Image</th>
+          <th>Information</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="productList"></tbody>
+    </table>
+  </body>
+  <script type="module" src="index.js">
+    
+  </script>
+</html>

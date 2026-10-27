@@ -1,0 +1,134 @@
+.hero-banner{
+    width: 500px;
+    height: 200px;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#france{
+        background-image: url("https://www.grayline.com/wp-content/uploads/2025/01/shutterstock_667548661-scaled.jpg");
+}
+#belgium{
+        background-image: url("https://images.goway.com/production/styles/hero_s1_3xl/s3/hero_image/Leie%20river%2C%20Ghent%2C%20Belgium_AdobeStock_193865552.jpeg.webp?VersionId=5OPQiYckwjLEwS6HysDs.DZpZx18vlxx&itok=pfmsnFGM");
+}
+#england{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRSnUnLwzxvmgk0SwiQLdKX4E5k6EDtXqHbz6JVn39RDpXWsYvLHSTBS0&s=10");
+}
+#germany{
+        background-image: url("https://pohcdn.com/sites/default/files/styles/node__blog_post__bp_banner/public/live_banner/germany-0.jpg");
+}
+#netherland{
+        background-image: url("https://www.travelandleisure.com/thmb/ao-4R6cWh-dsi1t8WVZv7w9opTc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tulips-in-the-netherlands-NETH0120-8b1a3c2e3308427884a19f87164acc43.jpg");
+}
+#switzerland{
+        background-image: url("https://146414706.fs1.hubspotusercontent-eu1.net/hubfs/146414706/best%20places%20to%20live%20in%20switzerland.jpg");
+}
+.text1{
+    font-size: 30px;
+    margin-left: 0;
+        color: #ffffff;
+    
+}
+.text3{
+    font-size: 20px;
+    width: min(485px, 100%);
+    height: auto;
+        color: #ffffff;
+        margin-left: 90px;
+    
+}
+.text2{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+
+    background: linear-gradient(
+        180deg,
+        #ffffff 35%,
+        #f1f3f1 70%,
+        rgb(0, 89, 121) 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+    text-shadow:
+        0 0 8px rgba(27, 90, 0, 0.35),
+        0 0 20px rgba(1, 100, 36, 0.2);
+
+    letter-spacing: 2px;
+    margin-left: 0;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.495);
+    height: (auto+30px);
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.hero-content{
+    height: 620px;
+    width: 490px;
+            background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#frace{
+    background-image: url("france.png");
+}
+#bel{
+    background-image: url("belgium.png");
+}
+#eng{
+    background-image: url("england.png");
+}
+#ger{
+    background-image: url("germany.png");
+}
+#nether{
+    background-image: url("netherland.png");
+}
+#switzer{
+    background-image: url("switzerland.png");
+}
+.buy{
+    position: relative;
+    padding: 16px 42px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 120px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #086203 0%, #5bfb65f7 100%);
+
+    transition: all .3s ease;
+    margin-top: 20px;
+}
+.buy:hover{
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 0 15px rgba(139,92,246,.3),
+        0 0 35px rgba(139,92,246,.15);
+}
+
+.buy:hover::after{
+    width: 70%;
+}
+
+.buy:active{
+    transform: translateY(0) scale(.96);
+}

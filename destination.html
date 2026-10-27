@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="des.css">
+</head>
+<body>
+    <div class="navbar">
+        <button id="home">Về trang chủ</button>
+        <h1 class="main-title" >Địa điểm, tour, lịch trình </h1>
+    </div>
+<div id="destinations">
+    <div class="card">
+        <img class="card-img" src="https://dynamic-media.tacdn.com/media/photo-o/30/42/46/65/caption.jpg?f=webp&w=1000&h=700" alt="">
+        <div class="card-name">Pháp</div>
+        <div class="info">Pháp – đất nước của vẻ đẹp lãng mạn, nghệ thuật tinh tế và nét quyến rũ vượt thời gian.</div>
+        <div class="card-price">$2099</div>
+        <button class="des-btn" id="france">Khám phá lịch trình</button>
+    </div>
+    <div class="card">
+        <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwog8yA6JkPfWLkx6GnSGlzbvjFaYPqRPoo0EAEAniWwE5bvb498UsYRPT&s=10" alt="">
+        <div class="card-name">Vương Quốc Anh</div>
+        <div class="info">Nước Anh – xứ sở của những tòa lâu đài cổ kính, vẻ đẹp thanh lịch và nền văn hóa đậm chất hoàng gia.</div>
+        <div class="card-price">$1999</div>
+        <button class="des-btn" id="england">Khám phá lịch trình</button>
+    </div>
+    <div class="card">
+        <img class="card-img" src="https://duhocinec.com/wp-content/uploads/2024/09/dat-nuoc-bi-02.jpg" alt="">
+        <div class="card-name">Bỉ</div>
+        <div class="info">Bỉ – xứ sở của những quảng trường lộng lẫy, những dòng kênh êm đềm và vẻ đẹp cổ điển vượt thời gian.</div>
+        <div class="card-price">$2300</div>
+        <button class="des-btn" id="belgium">Khám phá lịch trình</button>
+    </div>
+    <div class="card">
+        <img class="card-img" src="https://eutrip.vn/view/admin/Themes/kcfinder/upload/images/01-interlaken-3%20(1).jpeg" alt="">
+        <div class="card-name">Thụy sĩ</div>
+        <div class="info">Na Uy – xứ sở của những vịnh hẹp kỳ vĩ, núi non tráng lệ và cực quang huyền ảo.</div>
+        <div class="card-price">$1999</div>
+        <button class="des-btn" id="switzerland">Khám phá lịch trình</button>
+    </div>
+    <div class="card">
+        <img class="card-img" src="https://www.startravel.vn/upload/tin-tuc/07-05-2024/3.png" alt="">
+        <div class="card-name">Đức</div>
+        <div class="info">Đức – bản hòa tấu của sự điềm đạm, vẻ đẹp thanh lịch và một tấm lòng luôn chan chứa sự tử tế.</div>
+        <div class="card-price">$2199</div>
+        <button class="des-btn" id="germany">Khám phá lịch trình</button>
+    </div>
+    <div class="card">
+        <img class="card-img" src="https://visana.vn/wp-content/uploads/2017/05/kinh-nghi%E1%BB%87m-du-l%E1%BB%8Bch-h%C3%A0-lan-netherlands-spring-711.jpg" alt="">
+        <div class="card-name">Hà Lan</div>
+        <div class="info">Hà Lan – xứ sở của những cối xay gió bình yên, những con kênh thơ mộng và ngập tràn sắc hoa tulip.</div>
+        <div class="card-price">$1799</div>
+        <button class="des-btn" id="netherland">Khám phá lịch trình</button>
+    </div>
+</div>
+        <div id="LogreModal" class="Logre-modal">
+            <div class="Logre-box">
+                <button class="close-btn" id="closeGame">✖</button>
+                <iframe id="LogreFrame"></iframe>
+            </div>
+        </div>
+
+</body>
+<script>
+document.getElementById("home").addEventListener("click", () => {
+    window.location.href = "../Main.html";
+});
+</script>
+<script type="module" src="des.js"></script>
+</html>
